@@ -12,6 +12,11 @@
 
 ---
 
+> [!IMPORTANT]
+> **Bijou has moved to [Zipy](https://github.com/ashworks1706/zipy)** (zipy.run). Development
+> continues there, with every `bijou` name, setting and `BIJOU_` variable renamed to `zipy`. This
+> repository is kept read-only for its history.
+
 A frozen masked diffusion LM carries a bank of **skills**: named LoRA deltas, each trained on one
 narrow task, switchable per request and per point along the denoising trajectory. An **agent**
 runs in the same engine. An LLM plans a request into steps and picks which skills each step
